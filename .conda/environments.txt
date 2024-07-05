@@ -1,0 +1,16 @@
+/home/zhoujiaming/anaconda3
+/home/zhoujiaming/anaconda3/envs/torch190
+/home/zhoujiaming/anaconda3/envs/citod
+/home/zhoujiaming/anaconda3/envs/memseq
+/home/zhoujiaming/anaconda3/envs/cdconv
+/home/zhoujiaming/anaconda3/envs/cdconv-tfkeras-2024-1-15
+/home/zhoujiaming/anaconda3/envs/SGDCI
+/home/zhoujiaming/anaconda3/envs/doccano
+/home/zhoujiaming/anaconda3/envs/chatgpt
+/home/zhoujiaming/anaconda3/envs/g2s
+/home/zhoujiaming/anaconda3/envs/hitrans
+/home/zhoujiaming/anaconda3/envs/paddle
+/home/zhoujiaming/anaconda3/envs/hitrans_none
+/home/zhoujiaming/anaconda3/envs/hitrans_geotorch
+/home/zhoujiaming/anaconda3/envs/hitrans_amrview
+/home/zhoujiaming/anaconda3/envs/amr_view

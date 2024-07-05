@@ -1,0 +1,22 @@
+16:36:29 INF [Inbound] Mixed(http+socks) listening addr=127.0.0.1:7890
+16:36:29 INF [API] listening addr=127.0.0.1:37537
+16:36:29 INF [Config] initial compatible provider name=🚀 节点选择
+16:36:29 INF [Config] initial compatible provider name=🎯 全球直连
+16:36:29 INF [Config] initial compatible provider name=🌍 国外媒体
+16:36:29 INF [Config] initial compatible provider name=📲 电报信息
+16:36:29 INF [Config] initial compatible provider name=📢 谷歌FCM
+16:36:29 INF [Config] initial compatible provider name=🚄 高速公网
+16:36:29 INF [Config] initial compatible provider name=🐟 漏网之鱼
+16:36:29 INF [Config] initial compatible provider name=📺 巴哈姆特
+16:36:29 INF [Config] initial compatible provider name=🍎 苹果服务
+16:36:29 INF [Config] initial compatible provider name=Ⓜ️ 微软服务
+16:36:29 WRN [DNS] redir-host is deprecated, please use fake-ip instead
+16:38:38 INF [Inbound] Mixed(http+socks) listening addr=[::]:7890
+16:47:19 INF [TCP] connected lAddr=10.201.97.24:63178 rAddr=172.217.160.110:80 mode=global
+16:47:30 INF [TCP] connected lAddr=10.201.97.24:63215 rAddr=172.217.160.110:80 mode=global
+16:47:49 INF [TCP] connected lAddr=10.201.97.24:63228 rAddr=172.217.160.110:80 mode=global
+16:47:55 INF [TCP] connected lAddr=10.201.97.24:63234 rAddr=172.217.160.110:80 mode=global
+16:48:47 INF [TCP] connected lAddr=127.0.0.1:58272 rAddr=google.com:80 mode=global
+16:50:30 INF [TCP] connected lAddr=127.0.0.1:58276 rAddr=google.com:80 mode=global
+16:54:43 INF [TCP] connected lAddr=127.0.0.1:58284 rAddr=google.com:80 mode=global
+16:54:45 INF [TCP] connected lAddr=127.0.0.1:58288 rAddr=google.com:80 mode=global

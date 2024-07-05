@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Nsight Eclipse Edition
+GenericName=Nsight Eclipse Edition
+Icon=/home/zhoujiaming/usrbin/cuda-9.1/libnsight/icon.xpm
+Exec=/home/zhoujiaming/usrbin/cuda-9.1/bin/nsight
+TryExec=/home/zhoujiaming/usrbin/cuda-9.1/bin/nsight
+Keywords=cuda;gpu;nvidia;debugger;
+X-AppInstall-Keywords=cuda;gpu;nvidia;debugger;
+X-GNOME-Keywords=cuda;gpu;nvidia;debugger;
+Terminal=No
+Categories=Development;IDE;Debugger;ParallelComputing
+

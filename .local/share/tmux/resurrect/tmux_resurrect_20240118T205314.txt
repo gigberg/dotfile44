@@ -1,0 +1,17 @@
+pane	0	0	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	1	bash	:
+pane	0	1	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	1	bash	:
+pane	0	2	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	0	clash	:/home/zhoujiaming/usrbin/clash -d /home/zhoujiaming/usrbin/clash.cfgdir/
+pane	0	2	0	:	1	B505-Server-10	:/usr/local/zhoujiaming/kyoto	1	python	:/home/zhoujiaming/anaconda3/bin/python /home/zhoujiaming/anaconda3/bin/jupyter-lab --no-browser
+pane	0	2	0	:	2	B505-Server-10	:/usr/local/zhoujiaming/kyoto	0	bash	:
+pane	0	3	0	:-	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	1	python	:/home/zhoujiaming/anaconda3/envs/torch190/bin/python /home/zhoujiaming/anaconda3/envs/torch190/bin/nvitop
+pane	0	4	1	:*	0	B505-Server-10	:/usr/local/zhoujiaming/usrbin	1	bash	:bash
+pane	0	5	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/dialogue-consistency-identification/neuralcoref-master	1	bash	:
+pane	0	6	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	1	bash	:
+window	0	0	:Mem2Seq	0	:	b2c1,137x41,0,0,4	off
+window	0	1	:flog	0	:	c21f,97x27,0,0,2	off
+window	0	2	:clju	0	:	8a2c,97x27,0,0{47x27,0,0,6,49x27,48,0[49x14,48,0,11,49x12,48,15,14]}	off
+window	0	3	:cgpu	0	:-	6141,97x27,0,0,12	off
+window	0	4	:conv	1	:*	c222,97x27,0,0,5	off
+window	0	5	:ipy	0	:	c220,97x27,0,0,3	off
+window	0	6	:bash	0	:	c225,97x27,0,0,8	:
+state	0	

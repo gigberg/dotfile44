@@ -1,0 +1,31 @@
+files:
+  - url: ""
+    time: 1664179890264.yml
+    name: config.yaml
+    selected: []
+  - url: ""
+    time: 1664180150170.yml
+    name: 1663816199030.yml
+    selected:
+      - name: GLOBAL
+        now: 🇭🇰 香港HGC商宽
+      - name: 🚀 节点选择
+        now: 🚄 高速公网
+      - name: 📺 巴哈姆特
+        now: 剩余流量：126.1 GB
+      - name: 🌍 国外媒体
+        now: 🚀 节点选择
+      - name: 📲 电报信息
+        now: 🚀 节点选择
+      - name: Ⓜ️ 微软服务
+        now: 🚀 节点选择
+      - name: 🍎 苹果服务
+        now: DIRECT
+      - name: 📢 谷歌FCM
+        now: 🚀 节点选择
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🐟 漏网之鱼
+        now: 🚀 节点选择
+    mode: global
+index: 1

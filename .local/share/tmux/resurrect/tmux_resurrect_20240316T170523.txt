@@ -1,0 +1,23 @@
+pane	0	0	1	:*	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/citod_data/sgdci_1_3_1	0	bash	:
+pane	0	0	1	:*	1	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/citod_data	1	bash	:
+pane	0	1	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/anaconda3/envs/SGDCI/lib/python3.8/site-packages/fitlog/fastserver	1	python	:/home/zhoujiaming/anaconda3/envs/SGDCI/bin/python /home/zhoujiaming/anaconda3/envs/SGDCI/bin/fitlog log logs/ -l new1.cfg
+pane	0	2	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	1	clash	:/home/zhoujiaming/usrbin/clash -d /home/zhoujiaming/usrbin/clash.cfgdir/
+pane	0	2	0	:	1	B505-Server-10	:/usr/local/zhoujiaming/packages/bus	0	bash	:-bash
+pane	0	2	0	:	2	B505-Server-10	:/usr/local/zhoujiaming/kyoto	0	python	:/home/zhoujiaming/anaconda3/bin/python /home/zhoujiaming/anaconda3/bin/jupyter-lab --no-browser
+pane	0	2	0	:	3	B505-Server-10	:/usr/local/zhoujiaming/kyoto	0	bash	:
+pane	0	3	0	:-	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	1	python	:/home/zhoujiaming/anaconda3/envs/torch190/bin/python /home/zhoujiaming/anaconda3/envs/torch190/bin/nvitop
+pane	0	4	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/citod_data	1	bash	:
+pane	0	4	0	:	1	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/citod_data/cdconv_new/citod_origin	0	python	:python
+pane	0	5	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	1	python	:/home/zhoujiaming/anaconda3/envs/cdconv/bin/python /home/zhoujiaming/anaconda3/envs/cdconv/bin/ipython
+pane	0	6	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	0	python	:/home/zhoujiaming/anaconda3/envs/doccano/bin/python /home/zhoujiaming/anaconda3/envs/doccano/bin/doccano webserver --port 8000
+pane	0	6	0	:	1	B505-Server-10	:/usr/local/zhoujiaming/anaconda3/envs/doccano/lib/python3.8/site-packages/backend	1	python	:/home/zhoujiaming/anaconda3/envs/doccano/bin/python /home/zhoujiaming/anaconda3/envs/doccano/bin/doccano task
+pane	tmuxb	0	1	:*	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/citod_data	1	bash	:
+window	0	0	:m2sq	1	:*	6518,110x42,0,0[110x21,0,0,1,110x20,0,22,15]	off
+window	0	1	:flog	0	:	ceff,105x39,0,0,2	off
+window	0	2	:clju	0	:	fdad,105x39,0,0{52x39,0,0[52x18,0,0,3,52x20,0,19,11],52x39,53,0[52x18,53,0,4,52x20,53,19,5]}	off
+window	0	3	:cgpu	0	:-	cf03,105x39,0,0,6	off
+window	0	4	:conv	0	:	40e9,105x39,0,0[105x25,0,0,7,105x13,0,26,13]	off
+window	0	5	:ipy	0	:	cf05,105x39,0,0,8	off
+window	0	6	:docc	0	:	71ea,105x39,0,0[105x19,0,0,9,105x19,0,20,12]	off
+window	tmuxb	0	:bash	1	:*	55a6,214x11,0,0,17	:
+state	tmuxb	

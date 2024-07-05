@@ -1,0 +1,19 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+jsd.cdn.zzko.cn	0	0	1682313692	63072000
+developer.nvidia.com	0	1	1705324034	63072000
+d27.rose27.top	0	0	1647520303	31536000
+update.code.visualstudio.com	0	1	1715502446	31536000
+raw.githubusercontent.com	0	0	1711881541	31536000
+developer.download.nvidia.cn	0	0	1711720788	31536000
+cdn.jsdelivr.us	0	0	1709872607	31536000
+raw.gitmirror.com	0	0	1682702566	31536000
+codeload.github.com	0	0	1705592467	31536000
+rosefile.net	0	0	1647520305	31536000
+www.cnblogs.com	0	1	1645675345	2592000
+mirrors.tuna.tsinghua.edu.cn	0	0	1642247803	31536000
+raw.staticdn.net	0	0	1682702565	31536000
+github.com	0	1	1705599616	31536000
+jsdelivr.b-cdn.net	0	1	1705205208	31536000
+slink.ltd	0	1	1705581911	15552000

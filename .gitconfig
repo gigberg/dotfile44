@@ -1,0 +1,7 @@
+[http]
+	sslVerify = false
+[user]
+	email = you@example.com
+	name = YourName
+[core]
+	editor = vim

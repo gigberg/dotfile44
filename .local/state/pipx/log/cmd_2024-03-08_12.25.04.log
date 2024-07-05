@@ -1,0 +1,42 @@
+   106.6ms (setup:858): 2024-03-08 12:25:04
+   106.6ms (setup:859): /home/zhoujiaming/anaconda3/envs/SGDCI/bin/pipx install lua
+   106.7ms (setup:860): pipx version is 1.4.3
+   106.7ms (setup:861): Default python interpreter is '/home/zhoujiaming/anaconda3/envs/SGDCI/bin/python'
+   107.4ms (package_name_from_spec:370): Determined package name: lua
+   107.4ms (package_name_from_spec:371): Package name determined in 0.0s
+   108.0ms (run_subprocess:168): running /home/zhoujiaming/anaconda3/envs/SGDCI/bin/python -m venv --without-pip /home/zhoujiaming/.local/share/pipx/venvs/lua
+   155.8ms (run_subprocess:190): stdout:
+   156.1ms (run_subprocess:192): stderr:
+   156.1ms (run_subprocess:193): returncode: 0
+   156.8ms (run_subprocess:168): running <checking pip's availability>
+   175.1ms (run_subprocess:190): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fd7bfc48e80>, origin='/usr/local/zhoujiaming/.local/share/pipx/shared/lib/python3.9/site-packages/pip/__init__.py', submodule_search_locations=['/usr/local/zhoujiaming/.local/share/pipx/shared/lib/python3.9/site-packages/pip'])
+   175.3ms (run_subprocess:193): returncode: 0
+   175.8ms (run_subprocess:168): running /home/zhoujiaming/.local/share/pipx/venvs/lua/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   187.8ms (run_subprocess:190): stdout: /home/zhoujiaming/.local/share/pipx/venvs/lua/lib/python3.8/site-packages
+   188.0ms (run_subprocess:193): returncode: 0
+   188.6ms (run_subprocess:168): running /usr/local/zhoujiaming/.local/share/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+   199.3ms (run_subprocess:190): stdout: /usr/local/zhoujiaming/.local/share/pipx/shared/lib/python3.9/site-packages
+   199.6ms (run_subprocess:193): returncode: 0
+   200.3ms (run_subprocess:168): running /home/zhoujiaming/.local/share/pipx/venvs/lua/bin/python --version
+   202.6ms (run_subprocess:190): stdout: Python 3.8.18
+   202.9ms (run_subprocess:192): stderr:
+   202.9ms (run_subprocess:193): returncode: 0
+   203.5ms (_parsed_package_to_package_or_url:137): cleaned package spec: lua
+   204.4ms (run_subprocess:168): running /home/zhoujiaming/.local/share/pipx/venvs/lua/bin/python -m pip --no-input install lua
+  2396.7ms (run_subprocess:193): returncode: 1
+  2397.2ms (subprocess_post_check_handle_pip_error:327): '/home/zhoujiaming/.local/share/pipx/venvs/lua/bin/python -m pip --no-input install lua' failed
+  2397.8ms (subprocess_post_check_handle_pip_error:342): Fatal error from pip prevented installation. Full pip output in file:
+    /home/zhoujiaming/.local/state/pipx/log/cmd_2024-03-08_12.25.04_pip_errors.log
+  2400.7ms (rmdir:55): removing directory /home/zhoujiaming/.local/share/pipx/venvs/lua
+  2401.7ms (cli:924): PipxError: Error installing lua.
+Traceback (most recent call last):
+  File "/home/zhoujiaming/anaconda3/envs/SGDCI/lib/python3.8/site-packages/pipx/main.py", line 921, in cli
+    return run_pipx_command(parsed_pipx_args)
+  File "/home/zhoujiaming/anaconda3/envs/SGDCI/lib/python3.8/site-packages/pipx/main.py", line 219, in run_pipx_command
+    return commands.install(
+  File "/home/zhoujiaming/anaconda3/envs/SGDCI/lib/python3.8/site-packages/pipx/commands/install.py", line 91, in install
+    venv.install_package(
+  File "/home/zhoujiaming/anaconda3/envs/SGDCI/lib/python3.8/site-packages/pipx/venv.py", line 254, in install_package
+    raise PipxError(f"Error installing {full_package_description(package_name, package_or_url)}.")
+pipx.util.PipxError: Error installing lua.
+  2402.9ms (cli:932): pipx finished.

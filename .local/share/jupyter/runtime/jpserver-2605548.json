@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "password": false,
+  "pid": 2605548,
+  "port": 8888,
+  "root_dir": "/usr/local/zhoujiaming/kyoto/d2l-zh/pytorch",
+  "secure": false,
+  "sock": "",
+  "token": "61e5d4c51b331ce1e0baac35fd3f91e076db3bd87121f500",
+  "url": "http://localhost:8888/",
+  "version": "1.23.4"
+}

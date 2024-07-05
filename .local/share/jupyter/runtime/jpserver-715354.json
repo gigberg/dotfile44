@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "password": false,
+  "pid": 715354,
+  "port": 8888,
+  "root_dir": "/usr/local/zhoujiaming/kyoto/nlpcode",
+  "secure": false,
+  "sock": "",
+  "token": "bbe362b19806b2591617490f6cb670c66828cbb502c12920",
+  "url": "http://localhost:8888/",
+  "version": "1.23.4"
+}

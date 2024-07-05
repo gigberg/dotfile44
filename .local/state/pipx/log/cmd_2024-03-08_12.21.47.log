@@ -1,0 +1,5 @@
+    95.7ms (setup:858): 2024-03-08 12:21:47
+    95.9ms (setup:859): /home/zhoujiaming/anaconda3/envs/SGDCI/bin/pipx
+    95.9ms (setup:860): pipx version is 1.4.3
+    96.0ms (setup:861): Default python interpreter is '/home/zhoujiaming/anaconda3/envs/SGDCI/bin/python'
+    98.0ms (cli:932): pipx finished.

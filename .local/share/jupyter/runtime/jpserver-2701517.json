@@ -1,0 +1,12 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "password": true,
+  "pid": 2701517,
+  "port": 8888,
+  "root_dir": "/home/zhoujiaming/.jupyter",
+  "secure": false,
+  "token": "",
+  "url": "http://localhost:8888/",
+  "version": "1.4.1"
+}

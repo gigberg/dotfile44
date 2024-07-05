@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 2818516,
+  "port": 8888,
+  "root_dir": "/usr/local/zhoujiaming/kyoto",
+  "secure": false,
+  "sock": "",
+  "token": "ebbf6c775adafff4fba5a5c993e8977b4bd6d8ee76b1ddd4",
+  "url": "http://B505-Server-10:8888/",
+  "version": "1.23.4"
+}

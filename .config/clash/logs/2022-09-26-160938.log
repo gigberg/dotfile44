@@ -1,0 +1,2 @@
+16:09:38 INF [Inbound] Mixed(http+socks) listening addr=127.0.0.1:7890
+16:09:38 INF [API] listening addr=127.0.0.1:44263

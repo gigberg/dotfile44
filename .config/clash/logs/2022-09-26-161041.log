@@ -1,0 +1,13 @@
+16:10:41 INF [Inbound] Mixed(http+socks) listening addr=127.0.0.1:7890
+16:10:41 INF [API] listening addr=127.0.0.1:43599
+16:15:55 INF [Config] initial compatible provider name=🚀 节点选择
+16:15:55 INF [Config] initial compatible provider name=Ⓜ️ 微软服务
+16:15:55 INF [Config] initial compatible provider name=📲 电报信息
+16:15:55 INF [Config] initial compatible provider name=📺 巴哈姆特
+16:15:55 INF [Config] initial compatible provider name=🎯 全球直连
+16:15:55 INF [Config] initial compatible provider name=🐟 漏网之鱼
+16:15:55 INF [Config] initial compatible provider name=🚄 高速公网
+16:15:55 INF [Config] initial compatible provider name=🌍 国外媒体
+16:15:55 INF [Config] initial compatible provider name=🍎 苹果服务
+16:15:55 INF [Config] initial compatible provider name=📢 谷歌FCM
+16:15:55 WRN [DNS] redir-host is deprecated, please use fake-ip instead

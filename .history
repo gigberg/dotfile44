@@ -1,0 +1,9 @@
+2023-05-01 04:07:17 [zhoujiaming@ /home/zhoujiaming/kyoto ] 2023-05-01 04:07:17 export PROMPT_COMMAND='{ msg=$(history 1 | { read x y; echo $y; });echo $(date +"%Y-%m-%d %H:%M:%S") [$(whoami)@$SSH_USER$LOGIN_IP `pwd` ]" $msg" >> ~/.history; }'
+2023-05-01 04:07:20 [zhoujiaming@ /home/zhoujiaming/kyoto ] 2023-05-01 04:07:20 export PROMPT_COMMAND='{ msg=$(history 1 | { read x y; echo $y; });echo $(date +"%Y-%m-%d %H:%M:%S") [$(whoami)@$SSH_USER$LOGIN_IP `pwd` ]" $msg" >> ~/.history; }'
+2023-05-01 04:08:33 [zhoujiaming@ /home/zhoujiaming/kyoto ] 2023-05-01 04:07:20 export PROMPT_COMMAND='{ msg=$(history 1 | { read x y; echo $y; });echo $(date +"%Y-%m-%d %H:%M:%S") [$(whoami)@$SSH_USER$LOGIN_IP `pwd` ]" $msg" >> ~/.history; }'
+2023-05-01 04:09:00 [zhoujiaming@ /home/zhoujiaming/kyoto ] 2023-05-01 04:09:00 export PROMPT_COMMAND=$PROMPT_COMMAND
+2023-05-01 04:09:04 [zhoujiaming@ /home/zhoujiaming/kyoto ] 2023-05-01 04:09:04 $PROMPT_COMMAND
+2023-05-01 04:12:52 [zhoujiaming@ /home/zhoujiaming/kyoto ] 2023-05-01 04:12:52 $PROMPT_COMMAND
+2023-05-01 04:12:58 [zhoujiaming@ /home/zhoujiaming/kyoto ] 2023-05-01 04:12:58 echo $PROMPT_COMMAND
+2023-05-01 04:13:03 [zhoujiaming@ /home/zhoujiaming/kyoto ] 2023-05-01 04:13:03 export PROMPT_COMMAND=$PROMPT_COMMAND
+2023-05-01 04:13:04 [zhoujiaming@ /home/zhoujiaming/kyoto ] 2023-05-01 04:13:04 echo $PROMPT_COMMAND

@@ -1,0 +1,8 @@
+PIP STDOUT
+----------
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+
+PIP STDERR
+----------
+ERROR: Could not find a version that satisfies the requirement lua (from versions: none)
+ERROR: No matching distribution found for lua

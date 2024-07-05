@@ -1,0 +1,27 @@
+pane	tmuxa	0	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/citod_data/sgdci_1_3_1	0	bash	:
+pane	tmuxa	0	0	:	1	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/citod_data	1	bash	:
+pane	tmuxa	1	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/anaconda3/envs/SGDCI/lib/python3.8/site-packages/fitlog/fastserver	1	python	:/home/zhoujiaming/anaconda3/envs/SGDCI/bin/python /home/zhoujiaming/anaconda3/envs/SGDCI/bin/fitlog log logs/ -l new1.cfg
+pane	tmuxa	2	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	1	clash	:/home/zhoujiaming/usrbin/clash -d /home/zhoujiaming/usrbin/clash.cfgdir/
+pane	tmuxa	2	0	:	1	B505-Server-10	:/usr/local/zhoujiaming/packages/bus	0	bash	:-bash
+pane	tmuxa	2	0	:	2	B505-Server-10	:/usr/local/zhoujiaming/kyoto	0	python	:/home/zhoujiaming/anaconda3/bin/python /home/zhoujiaming/anaconda3/bin/jupyter-lab --no-browser
+pane	tmuxa	2	0	:	3	B505-Server-10	:/usr/local/zhoujiaming/kyoto	0	bash	:
+pane	tmuxa	3	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	1	python	:/home/zhoujiaming/anaconda3/envs/torch190/bin/python /home/zhoujiaming/anaconda3/envs/torch190/bin/nvitop
+pane	tmuxa	4	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/citod_data	1	bash	:
+pane	tmuxa	4	0	:	1	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/citod_data/cdconv_new/citod_origin	0	python	:python
+pane	tmuxa	5	0	:-	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	1	python	:/home/zhoujiaming/anaconda3/envs/cdconv/bin/python /home/zhoujiaming/anaconda3/envs/cdconv/bin/ipython
+pane	tmuxa	6	1	:*	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto	0	python	:/home/zhoujiaming/anaconda3/envs/doccano/bin/python /home/zhoujiaming/anaconda3/envs/doccano/bin/doccano webserver --port 8000
+pane	tmuxa	6	1	:*	1	B505-Server-10	:/usr/local/zhoujiaming/anaconda3/envs/doccano/lib/python3.8/site-packages/backend	1	python	:/home/zhoujiaming/anaconda3/envs/doccano/bin/python /home/zhoujiaming/anaconda3/envs/doccano/bin/doccano task
+pane	tmuxb	0	0	:-	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/citod_data	1	python	:/home/zhoujiaming/anaconda3/envs/cdconv/bin/python /home/zhoujiaming/anaconda3/envs/cdconv/bin/ipython
+pane	tmuxb	1	1	:*	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/citod_data/other/HiTrans	1	python	:python -u -m debugpy --listen 5678 --wait-for-client main.py
+pane	tmuxb	2	0	:	0	B505-Server-10	:/usr/local/zhoujiaming/kyoto/nlpcode/citod_data	1	bash	:
+window	tmuxa	0	:m2sq	0	:	5f25,207x62,0,0[207x31,0,0,1,207x30,0,32,15]	off
+window	tmuxa	1	:flog	0	:	ba1f,207x62,0,0,2	off
+window	tmuxa	2	:clju	0	:	4cce,207x62,0,0{104x62,0,0[104x30,0,0,3,104x31,0,31,11],102x62,105,0[102x30,105,0,4,102x31,105,31,5]}	off
+window	tmuxa	3	:cgpu	0	:	ba23,207x62,0,0,6	off
+window	tmuxa	4	:conv	0	:	b1ea,207x62,0,0[207x35,0,0,7,207x26,0,36,13]	off
+window	tmuxa	5	:ipy	0	:-	ba25,207x62,0,0,8	off
+window	tmuxa	6	:docc	1	:*	df2b,207x62,0,0[207x31,0,0,9,207x30,0,32,12]	off
+window	tmuxb	0	:ipy	0	:-	55a6,214x11,0,0,17	off
+window	tmuxb	1	:bug	1	:*	5617,192x11,0,0,18	off
+window	tmuxb	2	:bash	0	:	55a8,214x11,0,0,19	:
+state	tmuxb	

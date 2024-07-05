@@ -1,0 +1,12 @@
+{
+  "shell_port": 37437,
+  "iopub_port": 52857,
+  "stdin_port": 33159,
+  "control_port": 52997,
+  "hb_port": 37761,
+  "ip": "127.0.0.1",
+  "key": "ad9905e1-0bee4e7a04cab5ab12404528",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "conda-env-keras-py"
+}

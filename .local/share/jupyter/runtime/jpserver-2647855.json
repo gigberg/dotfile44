@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "password": false,
+  "pid": 2647855,
+  "port": 8889,
+  "root_dir": "/usr/local/zhoujiaming/kyoto",
+  "secure": false,
+  "sock": "",
+  "token": "95a6def726fba0cb0204f67e064366b0277e8c824866cc61",
+  "url": "http://localhost:8889/",
+  "version": "1.23.4"
+}
